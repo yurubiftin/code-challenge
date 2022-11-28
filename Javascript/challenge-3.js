@@ -5,7 +5,7 @@ var benefits = parseInt(benefits);
 benefits = prompt("Enter your benefits");
 benefits = parseInt(benefits);
 var gross_salary = parseInt(basic_salary) + parseInt(benefits);
-//
+//calculate payee
 var payee = parseInt(payee);
 if (gross_salary <= 24000) {
   payee === gross_salary * 0.1;
@@ -14,8 +14,10 @@ if (gross_salary <= 24000) {
 } else {
   payee === gross_salary * 0.3;
 }
+//calculate NSSFDeduction
 var NSSF = parseInt(NSSF);
 NSSF === (gross_salary * 6) / 100;
+//calculate NHIFDeduction
 var NHIF = parseInt(NHIF);
 if (gross_salary >= 0 && gross_salary <= 5999) {
   NHIF === 150;
@@ -52,8 +54,10 @@ if (gross_salary >= 0 && gross_salary <= 5999) {
 } else {
   NHIF === 1700;
 }
+//calculate Total_deduction
 var Total_deduction = parseInt(Total_deduction);
 Total_deduction = payee + NSSF + NHIF;
+//calculate net_income
 var net_income = parseInt(net_income);
 net_income === parseInt(gross_salary - Total_deduction);
 console.log("Your gross salary is " + gross_salary);

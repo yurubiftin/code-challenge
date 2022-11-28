@@ -8,5 +8,5 @@ else
 console.log("Points:"+((speed-70)/5));
 //if the driver gets more than 12 points, the function should print: "Licence suspended".
 if((speed-70)/5>12)
-console.log(LicenseSuspended);
+console.log("LicenseSuspended");
 }
