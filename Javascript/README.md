@@ -1,8 +1,8 @@
 # javascript code challenge
-
 ## Documentation
+The project consist of three mini-projects :challenge 1 ,challenge 2 and challenge 3.
 
-##Challenge 1:
+## Challenge 1:
  Student Grade Generator (Toy Problem)
 Write that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
 
@@ -18,7 +18,7 @@ For example, if the speed is 80, it should print: “Points: 2”. If the driver
 
  
 
-##Challenge 3:
+## Challenge 3:
  Net Salary Calculator (Toy Problem)
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 NB: Use KRA, NHIF, and NSSF values provided in the link below.
@@ -40,15 +40,17 @@ To run tests, run the following command
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone git@github.com:yurubiftin/code-challenge.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Javascript
 ```
-
+open it in "visual studio code"
+  code .
+  
 Install dependencies
 
 ```bash
@@ -62,5 +64,5 @@ Start the server
 ```
 
 
-## Authors
+## Author
 @yurubiftin
